@@ -453,34 +453,6 @@ export default function FallsReviewTracker() {
             </div>
           </div>
         </form>
-
-        {/* Info Panel */}
-        <div className="mt-6 bg-white rounded-lg shadow p-6">
-          <h3 className="font-semibold text-gray-900 mb-3">Why This Matters</h3>
-          <div className="grid md:grid-cols-3 gap-4 text-sm">
-            <div className="flex items-start">
-              <div className="w-2 h-2 bg-green-500 rounded-full mt-1.5 mr-3 flex-shrink-0"></div>
-              <div>
-                <p className="font-medium text-gray-900">Accountability</p>
-                <p className="text-gray-600">Track goals month-over-month and ensure follow-through</p>
-              </div>
-            </div>
-            <div className="flex items-start">
-              <div className="w-2 h-2 bg-blue-500 rounded-full mt-1.5 mr-3 flex-shrink-0"></div>
-              <div>
-                <p className="font-medium text-gray-900">Chain Visibility</p>
-                <p className="text-gray-600">Corporate can see which homes are completing reviews properly</p>
-              </div>
-            </div>
-            <div className="flex items-start">
-              <div className="w-2 h-2 bg-purple-500 rounded-full mt-1.5 mr-3 flex-shrink-0"></div>
-              <div>
-                <p className="font-medium text-gray-900">Data-Driven</p>
-                <p className="text-gray-600">Set specific, measurable goals tied to your actual fall data</p>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
